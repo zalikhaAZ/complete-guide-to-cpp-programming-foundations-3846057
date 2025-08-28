@@ -5,9 +5,11 @@
 #include <iostream>
 #include <cstdint>
 
-enum asset_type {texture, sound, animation, script};
+enum class asset_type {texture, sound, animation, script};
+enum class menu_section {background, music, sound, controls, texture};
 
 int main(){
+    int sound = 8;
     int asset_value;
 
     asset_value = sound;
